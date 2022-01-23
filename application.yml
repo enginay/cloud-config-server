@@ -11,12 +11,12 @@ microservice:
   order-service:
     endpoints:
       endpoint:
-        uri: http://GATEWAY-SERVICE/api/order/orders
+        uri: http://ORDER-SERVICE/api/order/orders
   product-service:
     endpoints:
       endpoint:
-        uri: http://GATEWAY-SERVICE/api/product/products
+        uri: http://PRODUCT-SERVICE/api/product/products
   customer-service:
     endpoints:
       endpoint:
-        uri: http://GATEWAY-SERVICE/api/customer/customers
+        uri: http://CUSTOMER-SERVICE/api/customer/customers
